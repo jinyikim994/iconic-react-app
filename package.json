@@ -1,15 +1,8 @@
 {
-  "name": "iconic-react-app",
-  "homepage": "https://jinyikim994.github.io/iconic-react-app",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }
-}
-
-{
+  "name": "2025-react-basic",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jinyikim994.github.io/iconic-react-app",
   "dependencies": {
     "@studio-freight/lenis": "^1.0.19",
     "@testing-library/jest-dom": "^5.17.0",
@@ -23,11 +16,16 @@
     "sass": "^1.64.2",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
